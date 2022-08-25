@@ -46,7 +46,7 @@
 </svelte:head>
 
 <div class="layout">
-	<div class="top-bar">
+	<div role="banner" class="top-bar">
 		<h1>Where in the world?</h1>
 		<button class="theme-switcher" on:click={() => (prefersDarkTheme = !prefersDarkTheme)}>
 			<i>
