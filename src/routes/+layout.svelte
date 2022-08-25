@@ -160,10 +160,12 @@
 		font-weight: 600;
 		cursor: pointer;
 	}
-	:global(a.reset) {
+	:global(a) {
 		font: inherit;
-		text-decoration: none;
 		color: inherit;
+	}
+	:global(a.reset) {
+		text-decoration: none;
 	}
 	/* :global(*) {
 		transition: background-color 300ms 300ms linear, color 10ms 0ms linear;
