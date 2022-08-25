@@ -5,7 +5,6 @@
 	type region = 'Africa' | 'Americas' | 'Asia' | 'Europe' | 'Oceania';
 
 	const REGIONS: region[] = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
-	// const { countryData } = data;
 	let filterRegion: region | 'all' = 'all';
 	let countryData: any[] = [];
 
