@@ -43,6 +43,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- TypeScript
 - CSS custom properties
 - Flexbox
 - CSS Grid
