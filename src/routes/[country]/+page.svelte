@@ -127,11 +127,12 @@
 	ul.links {
 		list-style: none;
 		display: flex;
-		column-gap: 1rem;
+		row-gap: 0.5em;
+		column-gap: 1em;
 		margin: 0;
 		padding: 0;
 		flex-flow: row wrap;
-		align-items: baseline;
+		align-content: flex-start;
 		font-size: 0.8571428571428571em;
 	}
 	a {
@@ -143,6 +144,7 @@
 
 	@media (min-width: 48rem) {
 		.layout-container {
+			font-size: 1rem;
 			grid-template:
 				'flag heading heading' auto
 				'flag description1 description2' auto
@@ -152,6 +154,7 @@
 		}
 		h1 {
 			align-self: flex-end;
+			font-size: 2rem;
 		}
 		img {
 			max-width: none;
