@@ -110,7 +110,7 @@
 		{:else}
 			{#each filteredData as country, i}
 				{#if i < nOfDisplaying}
-					<a href="./{country.name.common.toLowerCase()}">
+					<a class="reset" href="./{country.name.common.toLowerCase()}">
 						<CountryCard {country} />
 					</a>
 				{/if}

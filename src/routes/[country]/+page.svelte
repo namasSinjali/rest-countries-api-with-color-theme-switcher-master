@@ -79,7 +79,7 @@
 		<ul class="links">
 			{#each borders as countryName}
 				<li>
-					<a class="element" href="../{countryName.toLowerCase()}">{countryName}</a>
+					<a class="element reset" href="../{countryName.toLowerCase()}">{countryName}</a>
 				</li>
 			{/each}
 		</ul>
